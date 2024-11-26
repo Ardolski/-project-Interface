@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Ardi setya permana</title>
+</head>
+<body>
+    <nav>
+        <img src="img/logo title.png" alt="">
+        <div class="navbar">
+            <ul class="navlist">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#service">My Skill</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+            <div class="button">
+                <i id="iconnav" class="uil uil-align-right"></i>
+                <i id="closenav" class="uil uil-times"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wa-button">
+        <div class="text">
+            <p>Contact Us</p>
+        </div>
+        <a href="">
+            <i class="uil uil-whatsapp"></i>
+        </a>
+    </div>
+
+    <section class="home" id="home">
+        <div class="text">
+            <p>Portofolio abal abalan</p>
+            <h1>ARDI SETYA PERMANA</h1>
+        </div>
+        <div class="button">
+            <a href="#about">About Me</a>
+        </div>
+        
+        <div class="imageslide">
+            <!-- <img src="img/homeimage1.jpeg" alt=""> -->
+            <img src="img/midang sek.jpeg" alt="">
+        </div>
+
+        <div class="imageslide">
+            <img src="img/Mio.jpeg" alt="">
+        </div>
+
+        <div class="imageslide">
+            <img src="img/air terjun.jpeg" alt="">
+        </div>
+
+        <div class="imageslide">
+            <img src="img/ngebaso.jpeg" alt="">
+        </div>
+
+        <div class="page">
+            <span class="dot" onClick="dotslide(1)" style="--i:1"></span>
+            <span class="dot" onClick="dotslide(2)" style="--i:2"></span>
+            <span class="dot" onClick="dotslide(3)" style="--i:3"></span>
+            <span class="dot" onClick="dotslide(4)" style="--i:4"></span>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="left">
+            <div class="title">
+                <h1>Halo <span>GUYS</span></h1>
+                <h3>perkenalkan</h3>
+            </div>
+            <p> Nama saya Ardi setya permana,bisa dipanggil Ardi.Aku mempunyai hobi menonton sepak bola dan film.Saya tertarik dalam bidang UI/UX Design.</p>
+            <div class="button">
+                <a href="#gallery">Lebih Lanjut</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="gambar1">
+                <img src="img/diriku.jpeg" alt="">
+                <div class="gambar2">
+                    <img src="img/ngemot.jpeg" alt="">
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="kepalabalai">
+        <div class="content">
+            <div class="left">
+                <p><span>"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quia maxime laborum et. Animi itaque impedit nisi pariatur! Repudiandae rem exercitationem maxime, pariatur doloremque id. Dicta animi qui distinctio harum.<span>"</span></p>
+            </div>
+            <div class="right">
+                <img class="background" src="img/xmax.jpeg" alt="">
+                <div class="fotokepalabalai">
+                    <img src="img/foto urang.jpeg" alt="">
+                    <div class="text">
+                        <h3>Calon vice president BUMN</h3>
+                        <h4>Ardi setya permana</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="bidang">
+        <div class="title">
+            <h1>Bidang di BBPP Batangkaluku</h1>
+            <div class="content">
+                <div class="card"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <section class="gallery" id="gallery">
+        <div class="title">
+            <h1>Gambar <span>Gabut</span></h1>
+            <p>Kumpulan foto daily gabut</p>
+        </div>
+        <div class="content">
+            <div class="img"><img src="img/al jabbar.jpeg" alt=""></div>
+            <div class="img"><img src="img/jurang.jpeg" alt=""></div>
+            <div class="img"><img src="img/mancing.jpeg" alt=""></div>
+            <div class="img"><img src="img/les.jpeg" alt=""></div>
+            <div class="img"><img src="img/masjid.jpeg" alt=""></div>
+            <div class="img"><img src="img/tahura.jpeg" alt=""></div>
+            <div class="img"><img src="img/art.jpeg" alt=""></div>
+            <div class="img"><img src="img/class.jpeg" alt=""></div>
+            <div class="img"><img src="img/gate.jpeg" alt=""></div>
+            <div class="img"><img src="img/kapal.jpeg" alt=""></div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="left">
+            <img src="img/serviceimage.png" alt="">
+        </div>
+        <div class="right">
+            <div class="title">
+                <h1>My <span>Skill</span> </h1>
+                <p>User interface and user experience</p>
+            </div>
+            <div class="poin" style="--i:1">
+                <img src="img/serviceicon1.png" alt="">
+                <div class="text">
+                    <h5>User Research & Analysis</h5>
+                    <p>Kemampuan untuk memahami kebutuhan pengguna melalui metode penelitian seperti wawancara, survei, dan usability testing.</p>
+                </div>
+            </div>
+            <div class="poin" style="--i:2">
+                <img src="img/serviceicon2.png" alt="">
+                <div class="text">
+                    <h5>Wireframing & Prototyping</h5>
+                    <p>Membuat struktur dasar (wireframe) dan prototipe interaktif untuk menguji alur dan pengalaman pengguna sebelum implementasi.</p>
+                </div>
+                </div>
+            <div class="poin" style="--i:3">
+                <img src="img/serviceicon3.png" alt="">
+                <div class="text">
+                    <h5>UI Design & Visual Aesthetics</h5>
+                    <p>Membuat desain antarmuka yang estetis, responsif, dan berfokus pada pengalaman pengguna.</p>
+                </div>
+            </div>
+            <div class="poin" style="--i:4">
+                <img src="img/serviceicon4.png" alt="">
+                <div class="text">
+                    <h5>Collaboration & Communication</h5>
+                    <p>Kemampuan bekerja sama dalam tim lintas fungsi .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="footer">
+        <div class="up">
+            <div class="sejarah">
+                <h1></h1>
+                <p>"Design is intelligence made visible, but don’t worry, we still love naps."
+                    "Good design is like a joke. If you have to explain it, it’s not that good."
+                    "Creating user experiences so smooth, even your grandma would approve!"
+                    "Behind every great design is a thousand bad sketches (and a lot of coffee)."
+                    "We don’t just design – we tell stories, pixel by pixel."
+                    "If it’s not intuitive, it’s not our design."
+                    "Turning 'What if?' into 'Wow!' since [year].".</p>
+            </div>
+            <div class="kontak">
+                <h1>Kontak urang</h1>
+                <p>Bandung,jawa barat,Indonesia.</p>
+                <div class="content">
+                    <div class="hubungi">
+                        <img src="img/email.png" alt="">
+                        <p>ardisetyapermana@gmail.com</p>
+                    </div>
+                    <div class="hubungi">
+                        <img src="img/phone.png" alt="">
+                        <p>081-224-599-133</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="socialmedia">
+                <h1>Sosial Media</h1>
+                <div class="content">
+                    <a href="https://www.instagram.com/ardolski_/" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100079467505233" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@ardolski" target="_blank">
+                        <img src="img/tik-tok.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <p>Copyright © 2024 Ardi setya permana. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="code.js"></script>
+</body>
+</html>
